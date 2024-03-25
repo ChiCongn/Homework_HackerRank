@@ -31,9 +31,9 @@ bool possibleMove(const std::vector<std::string>& statusCoordinates,const int& p
 			if (memo[i][j]) {
 				if (statusCoordinates[i + 1][j] == 'E')
 					memo[i + 1][j] = true;
-				if (j - 1 >= 0 && statusCoordinates[i + 1][j - 1] == 'E')
+				if (j - 1 >= 0 && statusCoordinates[i + 1][j - 1] == 'E' && statusCoordinates[i][j-1]!='R')
 					memo[i + 1][j - 1] = true;
-				if (j + 1 < w && statusCoordinates[i + 1][j + 1] == 'E')
+				if (j + 1 < w && statusCoordinates[i + 1][j + 1] == 'E' && statusCoordinates[i][j+1]!='R')
 					memo[i + 1][j + 1] = true;
 			}
 		}
