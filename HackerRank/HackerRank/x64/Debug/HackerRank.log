@@ -1,0 +1,19 @@
+﻿  Source.cpp
+D:\GitHub\GameProject\HackerRank\HackerRank\Source.cpp(30,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8067,5): error C2672: '_Sort_unchecked': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8033,19): message : could be 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8067,5): message : Failed to specialize function template 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8067,5): message : With the following template arguments:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8067,5): message : '_RanIt=_RanIt'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8067,5): message : '_Pr=_Fn'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(8072,10): message : see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=int,
+              _Pr=std::less<void>
+          ]
+D:\GitHub\GameProject\HackerRank\HackerRank\Source.cpp(16,10): message : see reference to function template instantiation 'void std::sort<int>(const _RanIt,const _RanIt)' being compiled
+          with
+          [
+              _RanIt=int
+          ]
